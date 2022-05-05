@@ -1,11 +1,39 @@
 body {
     background-color: black;
 }
-div{
+header{
     background: white;
-    
+    padding: 10px;
 }
-.opciones{
-
+header h1{
+    margin-top: 0;
 }
-.post{}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+div.post img{
+    width: 100%;
+}
+ div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;  
+}
+div.post .post-header div:last-child{
+display: inline-block;
+width: 20%;
+text-align: right;
+color: grey;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+.usuario{
+    margin-top: 0;
+    padding-top: 0;
+}
